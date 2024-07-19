@@ -9,3 +9,23 @@
   opacity: 50%;
   margin: 0;
 }
+
+@media screen and (max-width: 920px) {
+  .footer {
+    display: flex;
+  }
+
+  .footer__copyright {
+    margin: 48px auto 36px;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .footer {
+    display: flex;
+  }
+
+  .footer__copyright {
+    margin: 48px auto 36px;
+  }
+}
