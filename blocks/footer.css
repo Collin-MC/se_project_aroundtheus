@@ -13,19 +13,16 @@
 @media screen and (max-width: 920px) {
   .footer {
     display: flex;
+    margin: 48px auto 36px;
   }
 
   .footer__copyright {
-    margin: 48px auto 36px;
-  }
-}
-
-@media screen and (max-width: 637px) {
-  .footer {
-    display: flex;
+    font-size: 14px;
+    line-height: 17px;
   }
 
-  .footer__copyright {
-    margin: 48px auto 36px;
+  .footer__section {
+    width: 581px;
+    margin: 0 auto;
   }
 }

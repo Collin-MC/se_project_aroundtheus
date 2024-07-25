@@ -29,4 +29,4 @@ This project creates a straightforward media-posting page that can be interacted
 
 **Video Presentation**
 
-- [Link to video explanation of project]() <!-- Will upload and attach link after first iteration is reviewed :) -->
+- [Link to video explanation of project](https://drive.google.com/file/d/1Q2dXihDzSfWjqkd4tBYSybwHp2N28d__/view?usp=sharing)
