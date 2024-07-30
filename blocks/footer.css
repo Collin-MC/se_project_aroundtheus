@@ -1,5 +1,6 @@
 .footer {
   margin: 70px auto 60px;
+  width: 880px;
 }
 
 .footer__copyright {
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 920px) {
   .footer {
-    display: flex;
+    max-width: 581px;
     margin: 48px auto 36px;
   }
 
@@ -20,9 +21,10 @@
     font-size: 14px;
     line-height: 17px;
   }
+}
 
-  .footer__section {
-    width: 581px;
-    margin: 0 auto;
+@media screen and (max-width: 637px) {
+  .footer {
+    width: 282px;
   }
 }
