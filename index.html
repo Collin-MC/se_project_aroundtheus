@@ -35,74 +35,7 @@
           </button>
         </section>
         <section class="cards">
-          <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/yosemite-valley.png"
-                alt="River with surrounding forest and mountain in background"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Yosemite Valley</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lake-louise.png"
-                alt="Mountainscape valley with a lake"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lake Louise</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/bald-mountains.png"
-                alt="Rolling mountainscape during sunset"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Bald Mountains</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/latemar.png"
-                alt="Mountainscape at night showing the stars"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Latemar</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/vanoise-national-park.png"
-                alt="Mountainscape with a lake and its reflection"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Vanoise National Park</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lago-di-braies.png"
-                alt="Mountainscape with boats and a dock"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lago di Braies</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-          </ul>
+          <ul class="cards__list"></ul>
         </section>
       </main>
       <footer class="footer">
@@ -115,22 +48,26 @@
         <button class="modal__close"></button>
         <form class="modal__form">
           <h2 class="modal__title">Edit profile</h2>
+          <input class="modal__profile-name_input" type="text" name="name" />
           <input
-            class="modal__input-1"
-            type="text"
-            name="title"
-            placeholder="Name"
-          />
-          <input
-            class="modal__input-2"
+            class="modal__profile-description_input"
             type="text"
             name="description"
-            placeholder="Bio"
           />
           <button class="modal__save">Save</button>
         </form>
       </div>
     </div>
+
+    <template id="card-template">
+      <li class="card">
+        <img src="" alt="" class="card__image" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button type="button" class="card__like-button"></button>
+        </div>
+      </li>
+    </template>
 
     <script src="./scripts/index.js"></script>
   </body>

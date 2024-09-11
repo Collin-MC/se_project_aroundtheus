@@ -56,7 +56,7 @@
   margin-bottom: 54px;
 }
 
-.modal__input-1 {
+.modal__profile-name_input {
   margin-bottom: 30px;
   padding: 0;
   height: 27px;
@@ -69,11 +69,11 @@
   font-weight: 400;
 }
 
-.modal__input-1:focus {
+.modal__profile-name_input:focus {
   outline: none;
 }
 
-.modal__input-2 {
+.modal__profile-description_input {
   height: 27px;
   padding: 0;
   border-top: 0;
@@ -85,7 +85,7 @@
   font-weight: 400;
 }
 
-.modal__input-2:focus {
+.modal__profile-description_input:focus {
   outline: none;
 }
 
